@@ -50,10 +50,7 @@ section{
     cursor: pointer;
     font-size: 1.7rem;
 }
-.btn:hover{
-    background: #111;
-    letter-spacing: .2rem;
-}
+
 header{
     position: fixed;
     top:0;left: 0;bottom: 0;
@@ -91,7 +88,7 @@ header .navbar a{
     margin: 2rem 0;
 }
 header .navbar a:hover{
-    letter-spacing: 2rem;
+   
     columns: var(--main-color);
 }
 .home{
@@ -237,5 +234,8 @@ header .navbar a:hover{
     height: 20rem;
     resize: none;
 }
-
+.service .box img{
+    width: 10px;
+    height:200px;
+} 
 
